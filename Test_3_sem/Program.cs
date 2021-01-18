@@ -14,7 +14,9 @@ namespace Test_3_sem
             int x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ведите второе чило для умножения");
             int y = Convert.ToInt32(Console.ReadLine());
-            int z = x * y;
+            Console.WriteLine("Ведите третье чило для умножения");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int z = x * y* a;
             Console.WriteLine ("Умнежение рано "+z);
             Console.ReadLine();
         }
